@@ -67,6 +67,7 @@ The portfolio is deployed on Vercel. The production deployment is connected to t
 
 ## Contact and GitHub
 
+- Live:   https://abdullah-shahid-portfolio-website.vercel.app/
 - GitHub: [Abdullahmughal123](https://github.com/Abdullahmughal123)
 - Repository: [Abdullah-Shahid-Portfolio-Website](https://github.com/Abdullahmughal123/Abdullah-Shahid-Portfolio-Website)
 
