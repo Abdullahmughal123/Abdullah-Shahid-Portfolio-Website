@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Github } from 'lucide-react';
+import { Menu, X, Github, Linkedin } from 'lucide-react';
 import { scrollToSection } from '../utils/scrollToSection';
 
 export default function Navbar() {
@@ -81,6 +81,15 @@ export default function Navbar() {
             <Github className="w-3.5 h-3.5 text-[#f2f2f0]" />
             <span>GitHub</span>
           </a>
+          <a
+            href="https://www.linkedin.com/in/muhammad-abdullah-shahid-a17b37272/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-[#f2f2f0] cursor-pointer flex items-center gap-1.5 border border-white/15 px-3 py-1.5 rounded-lg bg-white/05"
+          >
+            <Linkedin className="w-3.5 h-3.5 text-[#f2f2f0]" />
+            <span>LinkedIn</span>
+          </a>
         </div>
 
         {/* Mobile Hamburger Toggle */}
@@ -128,6 +137,15 @@ export default function Navbar() {
             >
               <Github className="w-4 h-4 text-[#f2f2f0]" />
               <span>GitHub</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/muhammad-abdullah-shahid-a17b37272/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-[#f2f2f0] font-mono text-sm flex items-center gap-2"
+            >
+              <Linkedin className="w-4 h-4 text-[#f2f2f0]" />
+              <span>LinkedIn</span>
             </a>
           </div>
         </div>

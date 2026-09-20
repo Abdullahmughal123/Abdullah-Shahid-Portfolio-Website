@@ -1,6 +1,7 @@
 import React from 'react';
-import { Github } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import { handleGlassMouseMove, handleGlassMouseLeave } from '../utils/useGlassTilt';
+import cvFile from '../assets/Abdullah_Shahid_NET_CV.pdf';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -28,6 +29,23 @@ export default function Footer() {
             className="w-8 h-8 rounded-lg bg-white/05 border border-white/10 flex items-center justify-center text-[#9A9088] hover:text-[#FF9A3D] hover:border-[#FF9A3D] transition-all"
           >
             <Github className="w-3.5 h-3.5" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/muhammad-abdullah-shahid-a17b37272/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+            className="w-8 h-8 rounded-lg bg-white/05 border border-white/10 flex items-center justify-center text-[#9A9088] hover:text-[#FF9A3D] hover:border-[#FF9A3D] transition-all"
+          >
+            <Linkedin className="w-3.5 h-3.5" />
+          </a>
+          <a
+            href={cvFile}
+            download="Abdullah_Shahid_NET_CV.pdf"
+            aria-label="Download CV"
+            className="inline-flex h-8 items-center rounded-lg bg-white/05 border border-white/10 px-3 text-[#9A9088] hover:text-[#FF9A3D] hover:border-[#FF9A3D] transition-all font-mono"
+          >
+            Download CV
           </a>
         </div>
 
